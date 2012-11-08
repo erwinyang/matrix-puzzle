@@ -7,6 +7,14 @@ import java.util.List;
 import java.util.Queue;
 import java.util.Set;
 
+/**
+ * matrix-puzzle
+ * Mr Chen's matrix puzzle posted on http://weibo.com/lirenchen
+ * A simple BFS-based solution in Java.
+ * To avoid OutOfMemoryError, run it with JVM argument -Xmx512m.
+ * @author erwinyang
+ * http://weibo.com/erwinyang
+ */
 public class Matrix {
 
 	private class State {
